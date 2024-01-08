@@ -16,7 +16,7 @@ USER appuser
 
 WORKDIR /home/appuser/app
 
-COPY --from=builder /app/main /home/appuser/app/appbin
+COPY --from=builder /app/genai-proxy /home/appuser/app/appbin
 
 EXPOSE 8000
 
