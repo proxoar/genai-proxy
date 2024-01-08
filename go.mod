@@ -1,4 +1,4 @@
-module gpt-proxy
+module genai-proxy
 
 go 1.21
 

@@ -17,10 +17,10 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
-# Go workspace file
 go.work
 .idea
 main
+genai-proxy
 
 #macOS
 **/.DS_Store

@@ -1,10 +1,10 @@
-ENTRY = main.go
-BINARY = talk
+ENTRY = .
+BINARY = genai-proxy
 
 .PHONY: build
 build:
 	go mod download
-	go build ${ENTRY}
+	go build -o genai-proxy ${ENTRY}
 
 .PHONY: test
 test:
